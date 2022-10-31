@@ -14,7 +14,7 @@ class Entity {
         entities.add(this);
 
         this.type = type;
-        this.x = x || randRange(64, WIDTH - 64);
+        this.x = x ?? randRange(64, WIDTH - 64);
         this.radius = radius;
         this.depth = depth;
     }
